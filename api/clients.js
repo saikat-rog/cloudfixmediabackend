@@ -14,7 +14,7 @@ const router = express.Router();
 router.use('/images', express.static(path.join(__dirname, '../clientimages')));
 
 const clientData = [
-  { id: 1, name: 'Lakshay Thakur',  image: `${process.env.BASE_URL}/api/clients/images/lakshay.png` },
+  { id: 1, name: 'Lakshay Thakur',  image: `https://api.cloudfixmedia.com/api/clients/images/lakshay.png` },
   { id: 2, name: 'N Murali',  image: `${process.env.BASE_URL}/api/clients/images/nmurail.png` },
   { id: 3, name: 'Sankho Kun',  image: `${process.env.BASE_URL}/api/clients/images/sankhakun.png` },
   { id: 4, name: 'Ankit Gupta',   image: `${process.env.BASE_URL}/api/clients/images/ankit.png` },
